@@ -1,14 +1,9 @@
-﻿jQuery(document).ready(function() {
+"use strict";
 
-// Функія яка перевіряє видимість елементу
-jQuery('*[data-animation]').viewportChecker(
-{
-	classToAdd: 'active-animation',
-	offset: 100
-});
-
-
-
-
-
+jQuery(document).ready(function () {
+  // Функія яка перевіряє видимість елементу
+  jQuery('*[data-animation]').viewportChecker({
+    classToAdd: 'active-animation',
+    offset: 100
+  });
 });
